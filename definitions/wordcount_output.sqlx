@@ -8,3 +8,4 @@ SELECT word, SUM(word_count) AS word_count FROM `bigquery-public-data.samples.sh
 -- from 
 --   ${ref("table_name")} / schema.table_name
 -- read more about ref() in the documentation tab -->
+--
