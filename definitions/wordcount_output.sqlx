@@ -1,0 +1,10 @@
+config {
+  type: "table"
+}
+
+SELECT word, SUM(word_count) AS word_count FROM `bigquery-public-data.samples.shakespeare` GROUP BY word
+
+-- select *
+-- from 
+--   ${ref("table_name")} / schema.table_name
+-- read more about ref() in the documentation tab -->
